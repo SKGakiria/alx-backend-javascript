@@ -1,5 +1,3 @@
-// Function using ES6 computed property names on the budget object
-
 function getCurrentYear() {
   const date = new Date();
   return date.getFullYear();

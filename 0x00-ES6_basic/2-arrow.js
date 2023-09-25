@@ -1,5 +1,3 @@
-// Use ES6’s arrow syntax of the function add
-
 export default function getNeighborhoodsList() {
   this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 

@@ -1,7 +1,7 @@
 // Script that attempts to read the database file asynchronously
 const { readFile } = require('fs');
 
-function countStudents = (dataPath) => {
+const countStudents = (dataPath) => {
   const students = {};
   const fields = {};
   let length = 0;

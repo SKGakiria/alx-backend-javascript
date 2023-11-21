@@ -16,7 +16,6 @@ const countStudents = (dataPath) => {
     for (const student in students) {
       if (student) console.log(`Number of students in ${student}: ${students[student].length}. List: ${students[student].join(', ')}`);
     }
-
   } catch (error) {
     throw new Error('Cannot load the database');
   }

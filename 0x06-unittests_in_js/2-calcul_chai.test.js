@@ -1,4 +1,4 @@
-// Test cases for function to handle different operations
+// Test cases for function to handle different operations using Chai
 const expect = require("chai").expect;
 const calculateNumber = require("./2-calcul_chai");
 

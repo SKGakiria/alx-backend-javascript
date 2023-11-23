@@ -1,6 +1,5 @@
 // Test cases for function containing the sum of a and b
 const assert = require("assert");
-const { it, describe } = require("mocha");
 const calculateNumber = require("./0-calcul");
 
 describe("calculateNumber()", function() {

@@ -1,6 +1,5 @@
 // Test cases for function to handle different operations
 const assert = require("assert");
-const { it, describe } = require("mocha")
 const calculateNumber = require("./1-calcul");
 
 describe("calculateNumber()", function() {
@@ -26,7 +25,7 @@ describe("calculateNumber()", function() {
       assert.strictEqual(res, "Error");
     });
     it(`checking if numbers rounded`, function() {
-      const res = calculateNumber("DIVIDE", -7.0, -0.3);
-      assert.strictEqual(res, 0.2);
+      const res = calculateNumber("DIVIDE", -7.0, -2.0);
+      assert.strictEqual(res, 3.5);
     });
 });

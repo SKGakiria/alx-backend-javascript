@@ -2,7 +2,7 @@
 const assert = require("assert");
 const calculateNumber = require("./0-calcul");
 
-describe("calculateNumber()", function() {
+describe("calculateNumber", function() {
 
     it(`checking if numbers rounded`, function() {
       const res = calculateNumber(1.0, 2.0);
